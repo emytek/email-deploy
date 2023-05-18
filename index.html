@@ -1,0 +1,397 @@
+
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+    * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    body {
+        font-family: 'Lato', sans-serif;
+        background-color: #fff;
+        font-size: 18px;
+        max-width: 40% !important;
+        margin: 0 auto;
+        padding: 2%;
+        color: #565859;
+      overflow-y: auto;
+    }
+    .wrapper {
+        background: #fff;
+        box-shadow: 0 0 5px #666;
+    }
+    .intro {
+        background: #FFF5EE;
+    }
+    img {
+        max-width: 100%;
+    }
+    .logo {
+        padding: 1% 0;
+        text-align: center;
+    }
+    .logo-text{
+        height: 3.7rem;
+    }
+    .logo img {
+        max-width: 220px;
+    }
+    h1, h2 {
+        letter-spacing: 1px;
+        padding-bottom: 15px;
+    }
+    p {
+        line-height: 28px;
+        padding-bottom: 25px;
+    }
+    .button {
+        background: #303840;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 800;
+        padding: 10px 14px;
+        border-radius: 8px;
+        letter-spacing: 2px;
+    }
+    .one-col {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .line {
+        clear: both;
+        height: 1px;
+        background-color: #F3F5F4;
+        width: 98%;
+    }
+    
+    .two-col {
+        padding: 5% 2%;
+      display: flex;
+      justify-content: flex-start;
+      box-shadow: 0 0 4px #666;
+      align-items: center;
+      padding-left: 20px;
+      background: #fff;
+    }
+    
+    .email {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #fff;
+      width: 90%;
+      padding: 20px;
+      width: 90vw; /* Use vw unit for width */
+    }
+    
+    .email-body {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    
+    .email-text{
+      margin-top: 0.75em;
+    }
+    
+    .wrapper-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        position: relative;
+        height: 60px;
+        padding-bottom: 33.33%; /* Set the height to 1/3 of the width */
+    }
+    
+    .banner{
+        height: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 4px #666;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .otp{
+      color: #F2656F;
+      letter-spacing: 15px;
+      font-size: 25px;
+    }
+    
+    .pad-text{
+      padding-top: 0.7rem;
+    }
+    
+    .shade{
+      box-shadow: 0 0 4px #666;
+    }
+    
+    .social {
+        width: 96%;
+        text-align: center;
+        list-style-type: none;
+        padding: 2%;
+        /* margin: 20px 0 5px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .sm-text{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #27959C;
+      font-weight: 500;
+      padding-top: 0.7em;
+    }
+    
+    .social li {
+        display: inline;
+    }
+    .social img {
+        max-width: 40px;
+    }
+    .contact {
+        text-align: center;
+        padding-bottom: 6%;
+    }
+    .three-col{
+      box-shadow: none;
+    }
+    
+    .features{
+      background-color: #27959C;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .store{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .store-options{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .store-options img {
+      cursor: pointer;
+    }
+    
+    .store-text{
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    
+    .store-link{
+      margin-top: 10px;
+    }
+    
+    .web-link{
+      text-decoration: none;
+    }
+    
+    .info-contact{
+      box-shadow: 0 0 4px #666;
+    }
+    
+    
+    @media (max-width: 768px) {
+        body {
+            padding: 1%;
+        max-width: 100% !important;
+        }
+    
+        .two-col {
+            min-width: 96%;
+            margin: 0 0 15px!important;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+        }
+    
+      .three-col {
+        box-shadow: none;
+      }
+    
+      .line{
+        display: none;
+      }
+    
+      .features{
+        height: 100px;
+      }
+    
+      .email-header{
+        font-size: 1rem;
+      }
+    
+      .email-text{
+        font-size: 1rem;
+      }
+    
+      .sm-text{
+        font-size: 1rem;
+      }
+    
+      .app-img {
+        height: 2rem;
+      }
+    
+      .shade{
+        box-shadow: none;
+      }
+    
+      .store-text {
+        font-size: 1rem;
+      }
+    
+      .email-body {
+        margin-top: 20px; 
+      }
+    
+      .email {
+        width: 90vw;
+      }
+    
+      .wrapper-banner{
+        height: 30px;
+      }
+    
+      .contact{
+        font-size: 1rem;
+      }
+    }
+    
+    @media screen and (min-width: 768px) {
+      /* Adjust width for larger screens */
+      body {
+            padding: 1%;
+        max-width: 100% !important;
+        }
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+      }
+      .email {
+        width: 90%;
+      }
+      .shade{
+        box-shadow: 0 0 4px #666;
+      }
+    }
+    
+    @media (min-width: 1200px) {
+        body {
+            max-width: 40% !important;
+        }
+    }
+    
+    </style>
+    </head>
+    <body>
+    
+        <div class="wrapper">
+            <div class="intro">
+                <div class="wrapper-banner">
+                    <a href="https://credib.io/" target="_blank">
+                      <img src="/assets/web-banner.webp" class="banner" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="line"></div>
+    
+            <div class="two-col">
+                <div class="email">
+                <div class="email-header">
+                    <h4>Dear Divine,</h4>
+                </div>
+                <div class="email-body">
+                      <p class="email-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ut deserunt, recusandae nobis cum rerum ad vitae voluptatem. 
+                        Ad eveniet harum atque, a vel accusamus eaque molestias, perferendis nihil quo dolore, hic blanditiis sequi architecto quia quibusdam labore at saepe!
+                      </p>
+                      <p class="email-text">Kindly find attached your OTP for your mobile verification below:</p>
+                      <div class="otp">
+                        34590
+                      </div>
+                      <p class="email-text">This code expires in 5 mins. Kindly ensure that you make use it before that time</p>
+                </div>
+                </div>
+            </div>
+    
+        <div class="three-col">
+          <div class="shade">
+            <p class="sm-text">Follow us on our Social Media Handles</p>
+            <ul class="social">
+              <li><a href="https://www.facebook.com/credib.io?mibextid=LQQJ4d" >
+                  <img src="/assets/img/fb.svg" alt="">
+                  </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/Credib_" >
+                  <img src="/assets/img/twt.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/credib_io?igshid=NTc4MTIwNjQ2YQ==" >
+                  <img src="/assets/img/instag.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/credib/" >
+                  <img src="/assets/img/lin.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="features">
+            <h3 class="store-text">Download the Application on</h3>
+            <div class="store">
+              <div class="store-options">
+                <a class="store-link" href="https://apps.apple.com/ng/app/credib/id6444865027">
+                  <img src="/assets/img/appstore.svg" alt="" class="app-img">
+                </a>
+                <a class="store-link" href="https://play.google.com/store/apps/details?id=io.credib.mobileapp&pli=1">
+                  <img src="/assets/img/google_store.svg" alt="" class="app-img">
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="info-contact">
+            <p class="contact">
+              <a class="web-link" href="https://credib.io/">www.credib.io</a><br>
+              +234 7025 232 054<br>
+              27B, Uyo Street, Rumuomasi, Port Harcourt
+            </p>
+         </div>
+        </div>
+        </div> <!--- End Wrapper -->
+    
+    </body>
+    </html>
+    
+    
